@@ -1,0 +1,32 @@
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
+:root { --b: 'Syne', sans-serif; --i: 'Space Grotesk', sans-serif; }
+body { background: #0A0A0A; overflow-x: hidden; }
+
+@keyframes pendulum    { 0%,100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg); } }
+@keyframes fadeUp      { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeIn      { from { opacity: 0; } to { opacity: 1; } }
+@keyframes blink       { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+@keyframes float1      { 0%,100% { transform: translate(0,0) rotate(0deg); } 33% { transform: translate(10px,-16px) rotate(50deg); } 66% { transform: translate(-8px,-10px) rotate(100deg); } }
+@keyframes float2      { 0%,100% { transform: translate(0,0) rotate(0deg); } 50% { transform: translate(-12px,12px) rotate(-80deg); } }
+@keyframes float3      { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(6px,-10px) scale(1.08); } }
+@keyframes float4      { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-8px,10px); } }
+@keyframes shapeReveal { from { opacity: 0; transform: translate(var(--tx,0px), var(--ty,20px)) scale(0.6); } to { opacity: 1; transform: translate(0,0) scale(1); } }
+@keyframes slideL      { from { opacity: 0; transform: translateX(-14px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes marquee     { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes overlayFade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes overlaySlide { from { opacity: 0; transform: translateY(40px) scale(0.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
+
+.nlink { transition: color 0.2s; cursor: pointer; }
+.nlink:hover { color: #7C6FF7 !important; }
+.exp-row { border-top: 1px solid #E0DDD5; transition: all 0.28s ease; cursor: default; }
+.exp-row:hover { background: #ECE9DF; padding-left: 3.5rem !important; }
+.exp-row:hover .exp-num { color: #7C6FF7 !important; }
+.ptab { cursor: pointer; transition: all 0.22s ease; }
+.ptab:hover { color: rgba(255,255,255,0.6) !important; }
+.img-slot { border-radius: 8px; transition: transform 0.3s; }
+.img-slot:hover { transform: scale(1.03); }
+.btn-p { transition: all 0.2s; cursor: pointer; }
+.btn-p:hover { transform: translateY(-2px); }
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-thumb { background: #7C6FF7; border-radius: 2px; }
+::-webkit-scrollbar-track { background: #0A0A0A; }
