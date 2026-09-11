@@ -1,7 +1,7 @@
 {
   "name": "khushi-portfolio",
   "version": "1.0.0",
-  "homepage": "https://YOUR-GITHUB-USERNAME.github.io/khushi-portfolio",
+  "homepage": "https://portfoliokhushishah.netlify.app",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
