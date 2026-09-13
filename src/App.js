@@ -287,7 +287,7 @@ export default function App() {
           <h2 style={{ fontFamily: 'var(--b)', fontWeight: 800, fontSize: 'clamp(2.2rem,5.5vw,3.5rem)', letterSpacing: '-.03em', lineHeight: 0.88, color: DK, marginBottom: '1.5rem' }}>Let's<br />Get<br /><span style={{ color: PU }}>In Touch</span></h2>
           <a href="mailto:khushi.workspace@gmail.com" style={{ fontSize: 13, color: DK, fontWeight: 600, textDecoration: 'none', marginBottom: '.4rem' }}>khushi.workspace@gmail.com</a>
           <a href="https://www.linkedin.com/in/khushi-shah-a51070206/" target="_blank" rel="noreferrer" style={{ fontSize: 13, color: 'rgba(0,0,0,.38)', textDecoration: 'none', marginBottom: '.4rem' }}>LinkedIn ↗</a>
-          <a href="https://github.com/Khushi-099" target="_blank" rel="noreferrer" style={{ fontSize: 13, color: 'rgba(0,0,0,.38)', textDecoration: 'none', marginBottom: '1rem' }}>GitHub ↗</a>
+          <a href="https://github.com/khushishahxr" target="_blank" rel="noreferrer" style={{ fontSize: 13, color: 'rgba(0,0,0,.38)', textDecoration: 'none', marginBottom: '1rem' }}>GitHub ↗</a>
           <a href={BASE+'/resume.pdf'} download="Khushi_Shah_Resume.pdf" style={{ display: 'inline-flex', alignItems: 'center', gap: '.5rem', padding: '10px 20px', background: PU, color: 'white', borderRadius: 4, fontSize: 12, fontWeight: 600, textDecoration: 'none', marginBottom: '1.5rem', alignSelf: 'flex-start' }}>↓ Download Resume</a>
           <button className="btn-p" onClick={() => window.location.href = 'mailto:khushi.workspace@gmail.com'} style={{ padding: '11px 26px', background: DK, color: 'white', border: 'none', borderRadius: 4, fontSize: 13, fontWeight: 600, cursor: 'pointer', alignSelf: 'flex-start' }}>Send Message →</button>
         </div>
