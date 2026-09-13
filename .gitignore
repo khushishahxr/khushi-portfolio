@@ -8,3 +8,6 @@
 
 # Production build output
 /build
+
+# Claude Code local tooling
+/.claude
